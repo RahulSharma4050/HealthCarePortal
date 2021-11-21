@@ -1,0 +1,15 @@
+{
+  "params": {
+
+    "local_server": "True",
+    "local_uri": "sqlite:///C:/Users/HP/my courses/PycharmProjects/healthcare system/healthcare portal/healthcare.db",
+    "prod_uri": "sqlite:///C:/Users/HP/my courses/PycharmProjects/healthcare system/healthcare portal/healthcare.db",
+    "secret_key": "654321",
+    "fb_url": "https://facebook.com/codingthunder",
+    "twitter_url": "https://twitter.com/codingthunder",
+    "insta_url":  "https://instagram.com/",
+    "google_url": "",
+    "vimeo_url": "",
+    "dribble_url": ""
+  }
+}

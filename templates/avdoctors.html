@@ -1,0 +1,44 @@
+﻿{% extends "layout1.html" %}
+{% block body %}
+
+
+
+
+
+
+
+<!-- Section: intro -->
+<section id="intro" class="intro">
+    <div class="intro-content">
+        <div class="container">
+            <div class="row">
+             
+                <form action="dentist" method="post">
+                    <h3>CHOOSE TYPE:</h3>
+                    <br>
+                    <h5><input type="submit" value="&nbsp;&nbsp;Dentist&nbsp;&nbsp;&nbsp;" class="btn btn-primary"></h5>
+                    <br>
+                    <h5><input type="submit" value="Cardiologist" class="btn btn-primary" formaction="cardio"></h5>
+                    <br>
+                    <h5><input type="submit" value="Neurosurgeon" class="btn btn-primary" formaction="neuro"></h5>
+                    <br>
+                    <h5><input type="submit" value="Eye Specialist" class="btn btn-primary" formaction="eyes"></h5>
+                    <br>
+                    <h5><input type="submit" value="&nbsp;&nbsp;General&nbsp;&nbsp;" class="btn btn-primary" formaction="general"></h5>
+
+                 </form>
+          
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Section: intro -->
+
+
+
+
+
+
+
+{% endblock %}

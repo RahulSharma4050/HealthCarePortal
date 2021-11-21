@@ -1,0 +1,40 @@
+﻿{% extends "layout1.html" %}
+{% block body %}
+<style>
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+    /* Add some padding inside the card container */
+    .container {
+        padding: 2px 16px;
+    }
+</style>
+<!-- Eyes Available -->
+<section id="intro" class="intro">
+    <div class="intro-content">
+        <div class="container">
+            <div class="row">
+
+                <div class="card">
+                    <img src="#" alt="Databse Name" style="width:200px;height:90px ">
+                    <div class="container">
+                        <h4><b>Databse Name</b></h4>
+                        <p>Database Pricing</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Eyes Available -->
+{% endblock %}
